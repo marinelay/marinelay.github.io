@@ -1,11 +1,12 @@
 subject: Publications
-listing-order: 4
+listing-order: 2
 icon: "/assets/img/flask.svg"
 contents:
-  - title: Journal
-    ref: 
-      - "[1] **M. Yankovich**, L. Hernández, M. Roveri, “[A symmetric encryption method with biometric authorization for constrained environments](https://scholar.google.com/),” *Cryptography*, vol. x, no. x, pp. xxx–xxx, 202x."
-      - "[2] **M. Yankovich**, F. Arute, G. Persiano, G. Segev, “[Authorized public-key search on iiot applications](https://scholar.google.com/),” *IEEE Transactions on Information Forensics and Security*, pp. xxx–xxx, 202x."
-  - title: Conference
-    ref:
-      - "[3] I. Lebedev, **M. Yankovich**, L. Wang, G. Segev, “[Post-training of deep bidirectional transformers for language understanding](https://scholar.google.com/),” *in Proc. 99th Annu. Meeting Assoc. Comput. Linguistics*, pp. xxx–xxx, 202x."
+  - title: 2024
+    article:
+      - "*(ASE'24)* **Towards Effective Static Type-Error Detection for Python**<br />
+        Wonseok Oh, Hakjoo Oh [[paper](https://dl.acm.org/doi/10.1145/3691620.3695545)]"
+  - title: 2022
+    article:
+      - "*(FSE'22)* **PyTER: Effective Program Repair for Python Type Errors**<br />
+        Wonseok Oh, Hakjoo Oh [[paper](https://dl.acm.org/doi/10.1145/3540250.3549130)]"
