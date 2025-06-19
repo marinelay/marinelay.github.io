@@ -2,24 +2,24 @@
 ---
 
 :root {
-    --color-background: #fffdfb;
-    --theme1-light: #F6D8CB;
-    --theme1-medium: #D0A694;
-    --theme1-dim: #B07D67;
-    --theme1-dark: #8A5843;
-    --theme2-light: #B1B1C2;
-    --theme2-medium: #8888A4;
-    --theme2-dim: #66658C;
-    --theme2-dark: #484776;
-    --theme3-light: #FFF8E4;
-    --theme3-medium: #EBDFBB;
-    --theme3-dim: #C8B887;
-    --theme3-dark: #A8955A;
-    --theme4-light: #AABEB6;
-    --theme4-medium: #7FA093;
-    --theme4-dim: #5C8876;
-    --theme4-dark: #3D725D;
-    --font-dark: #202424;
+    --color-background: #EAEFEF;
+    --theme1-light: #000000;
+    --theme1-medium: #333446; // side bar hover
+    --theme1-dim: #000000;
+    --theme1-dark: #000000; // footer font
+    --theme2-light: #000000;
+    --theme2-medium: #000000;
+    --theme2-dim: #000000;
+    --theme2-dark: #000000;
+    --theme3-light: #000000;
+    --theme3-medium: #B8CFCE; // side bar and footer background
+    --theme3-dim: #B8CFCE; // left circle color
+    --theme3-dark: #333446; // Name zone font
+    --theme4-light: #000000;
+    --theme4-medium: #B8CFCE; // profile zone background 
+    --theme4-dim: #000000;
+    --theme4-dark: #7F8CAA; // job zone
+    --font-dark: #000000;
 }
 
 html, body {
@@ -444,7 +444,7 @@ a { text-decoration:none; }
             padding-right: 12px;
             background: var(--theme1-medium);
 
-            a { color:var(--font-dark); }
+            a { color:var(--color-background); }
         }
     }
 
