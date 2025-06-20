@@ -1,0 +1,10 @@
+subject: Talks
+listing-order: 4
+icon: "/assets/img/clipboard-list.svg"
+contents:
+  - title: 2024
+    talk: "31 Oct. [ASE 2024](https://conf.researchr.org/home/ase-2024)"
+  - title: 2023
+    talk: "09 Feb. [KCSE 2023 Invite Talk](https://sigsoft.or.kr/kcse2023/)"
+  - title: 2022
+    talk: "16 Nov. [FSE 2022](https://2022.esec-fse.org)"

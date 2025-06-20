@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     var contents = document.querySelectorAll('.subject, .item');
 
-    setInterval(function(){
+    window.addEventListener('scroll', function(){
         var scrollPos = document.documentElement.scrollTop;
         var wh = window.innerHeight;
 
@@ -53,5 +53,5 @@ document.addEventListener('DOMContentLoaded', function(){
             let tocLink = document.getElementById("toc-id-" + currHead.textContent);
             tocLink.classList.add('active');
         }
-    }, 200);
+    })
 });

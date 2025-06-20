@@ -118,16 +118,40 @@
                   </div>
                   {% for item in member %}
                     {% if item[0] != "title" and item[0] != "date" %}
-                      {% if item[1].first %}
+                      {% assign key = item[0] %}
+                      {% assign value = item[1] %}
+                  
+                      {% if key == "paper" %}
                         <ul>
-                          {% for subitem in item[1] %}
-                          <li class="subitem">
-                            {{ subitem | markdownify }}
-                          </li>
+                          {% for paper in value %}
+                            {% assign info = paper.info %}
+                            <li class="subitem" style="margin-bottom: 2.0em;">
+                              <div style="font-size: 1.2em;">
+                                <span style="font-style: italic;">({{ info[0] }})</span>
+                                <strong> {{ info[1] }} </strong>
+                              </div>
+                              <div style="font-size: 1.05em; margin-top: 0.5em;">
+                                {{ info[2] }}
+                                {% if info.size > 3 %}
+                                  <a href="{{ info[3] }}">[paper]</a>
+                                {% endif %}
+                              </div>
+                            </li>
                           {% endfor %}
                         </ul>
                       {% else %}
-                        {{ item[1] | markdownify }}
+                        {% if item[1].first %}
+                          <ul>
+                            {% for subitem in item[1] %}
+                            <li class="subitem">
+                              {{ subitem | markdownify }}
+                            </li>
+                            {% endfor %}
+                          </ul>
+
+                        {% else %}
+                          {{ item[1] | markdownify }}
+                        {% endif %}
                       {% endif %}
                     {% endif %}
                   {% endfor %}

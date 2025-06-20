@@ -1,12 +1,18 @@
 subject: Publications
-listing-order: 2
+listing-order: 3
 icon: "/assets/img/flask.svg"
 contents:
   - title: 2024
-    article:
-      - "*(ASE'24)* **Towards Effective Static Type-Error Detection for Python**<br />
-        Wonseok Oh, Hakjoo Oh [[paper](https://dl.acm.org/doi/10.1145/3691620.3695545)]"
+    paper:
+      - info:
+        - ASE'24
+        - "Towards Effective Static Type-Error Detection for Python"
+        - Wonseok Oh, Hakjoo Oh
+        - "https://dl.acm.org/doi/10.1145/3691620.3695545"
   - title: 2022
-    article:
-      - "*(FSE'22)* **PyTER: Effective Program Repair for Python Type Errors**<br />
-        Wonseok Oh, Hakjoo Oh [[paper](https://dl.acm.org/doi/10.1145/3540250.3549130)]"
+    paper:
+      - info:
+        - FSE'22
+        - "PyTER: Effective Program Repair for Python Type Errors"
+        - Wonseok Oh, Hakjoo Oh
+        - "https://dl.acm.org/doi/10.1145/3540250.3549130"

@@ -4,21 +4,23 @@
 :root {
     --color-background: #EAEFEF;
     --theme1-light: #000000;
-    --theme1-medium: #333446; // side bar hover
+    --theme1-medium: #9EC6F3; // side bar hover
     --theme1-dim: #000000;
-    --theme1-dark: #000000; // footer font
+    --theme1-dark: #EAEFEF; // footer font
     --theme2-light: #000000;
     --theme2-medium: #000000;
     --theme2-dim: #000000;
     --theme2-dark: #000000;
     --theme3-light: #000000;
-    --theme3-medium: #B8CFCE; // side bar and footer background
-    --theme3-dim: #B8CFCE; // left circle color
+    --theme3-medium: #333446; // side bar and footer background
+    --side-bar-background: #333446; // sidebar background
+    --left-line: #333446; // left line color
+    --theme3-dim: #333446; // left circle color
     --theme3-dark: #333446; // Name zone font
     --theme4-light: #000000;
-    --theme4-medium: #B8CFCE; // profile zone background 
+    --theme4-medium: #333446; // profile zone background 
     --theme4-dim: #000000;
-    --theme4-dark: #7F8CAA; // job zone
+    --theme4-dark: #0A5EB0; // job zone
     --font-dark: #000000;
 }
 
@@ -75,7 +77,7 @@ a { text-decoration:none; }
         left:50%;
         transform: translate(-50%, -50%);
         border-radius:50%;
-        border: 4px solid var(--theme3-dark);
+        border: 4px solid #EAEFEF;
     }
 
     .profile-zone .personal-info {
@@ -92,7 +94,7 @@ a { text-decoration:none; }
     }
 
     .profile-zone .personal-info span { 
-        color: white;
+        color: #EAEFEF;
         display: inline-flex;
         font-size: 0;
         vertical-align: middle;
@@ -108,7 +110,9 @@ a { text-decoration:none; }
         cursor: pointer;
         vertical-align: middle;
         transition: all .75s;
-        filter: invert(10%) sepia(4%) saturate(5321%) hue-rotate(201deg) brightness(99%) contrast(90%);
+        filter: invert(100%) sepia(4%) saturate(982%) hue-rotate(148deg) brightness(95%) contrast(96%);
+
+
     }
 
     .profile-zone .personal-info {
@@ -119,7 +123,9 @@ a { text-decoration:none; }
             &:hover {
                 img {
                     width: 28px;
-                    filter: brightness(0) saturate(100%) invert(77%) sepia(47%) saturate(1006%) hue-rotate(358deg) brightness(104%) contrast(105%);
+                    filter: invert(100%) sepia(4%) saturate(982%) hue-rotate(148deg) brightness(95%) contrast(96%);
+
+
                 }
             }
         }
@@ -206,7 +212,7 @@ a { text-decoration:none; }
         width:32px;
         aspect-ratio:1.0;
         vertical-align: sub;
-        filter: invert(27%) sepia(2%) saturate(3297%) hue-rotate(8deg) brightness(92%) contrast(82%);
+        filter: invert(100%) sepia(4%) saturate(982%) hue-rotate(148deg) brightness(95%) contrast(96%);
     }
 
     .item { position: relative; }
@@ -313,10 +319,13 @@ a { text-decoration:none; }
 }
 
 #footer {
+    margin-top: 3cm;
     padding: 1rem;
     background: var(--theme3-medium);
     font-size: 14px;
-
+    span {
+        color: var(--theme1-dark);
+    }
     a { 
         color: var(--theme1-dark);
         font-weight: 600;
@@ -332,7 +341,7 @@ a { text-decoration:none; }
         width: 3px;
         height: 100%;
         margin-top: -64px;
-        background: var(--theme3-medium);
+        background: var(--left-line);
     }
 
     #about { 
@@ -429,12 +438,12 @@ a { text-decoration:none; }
             margin-right: 0;
             padding: 4px 24px 4px 12px;
             border-radius: 8px 0 0 8px;
-            background: var(--theme3-medium);
+            background: var(--side-bar-background);
             transition: all 0.5s;
             cursor: pointer;
 
             a {     
-                color: var(--font-dark);
+                color: var(--color-background);
                 text-shadow: 1px 1px 1px rgba(255,255,255,0.75); 
             }
         }
@@ -444,7 +453,7 @@ a { text-decoration:none; }
             padding-right: 12px;
             background: var(--theme1-medium);
 
-            a { color:var(--color-background); }
+            a { color:var(--font-dark); }
         }
     }
 
