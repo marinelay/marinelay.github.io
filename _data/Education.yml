@@ -1,6 +1,6 @@
 subject: Education
 listing-order: 1
-icon: "/assets/img/graduation-cap.svg"
+icon: "assets/img/graduation-cap.svg"
 contents:
   - title: Korea University, Ph.D. Student in Computer Science
     description:

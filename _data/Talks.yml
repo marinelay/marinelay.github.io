@@ -1,6 +1,6 @@
 subject: Talks
 listing-order: 4
-icon: "/assets/img/clipboard-list.svg"
+icon: "assets/img/clipboard-list.svg"
 contents:
   - title: 2024
     talk: "31 Oct. [ASE 2024](https://conf.researchr.org/home/ase-2024)"

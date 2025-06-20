@@ -106,7 +106,7 @@ For a better understanding, see the example below.
 ```yml
 subject: Education
 listing-order: 1
-icon: "/assets/img/graduation-cap.svg"
+icon: "assets/img/graduation-cap.svg"
 contents:
   - title: Stanfort University, MA in Computer Science
     description:
@@ -129,7 +129,7 @@ See also the advanced example.
 ```yml
 subject: Projects
 listing-order: 3
-icon: "/assets/img/clipboard-list.svg"
+icon: "assets/img/clipboard-list.svg"
 contents:
   - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
     description: 

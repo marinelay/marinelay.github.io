@@ -1,6 +1,6 @@
 subject: Publications
 listing-order: 3
-icon: "/assets/img/flask.svg"
+icon: "assets/img/flask.svg"
 contents:
   - title: 2024
     paper:

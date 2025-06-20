@@ -1,6 +1,6 @@
 subject: Skills
 listing-order: 5
-icon: "/assets/img/screwdriver-wrench.svg"
+icon: "assets/img/screwdriver-wrench.svg"
 contents:
   - title: Programming Languages
     description: "

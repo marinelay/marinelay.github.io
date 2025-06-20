@@ -1,6 +1,6 @@
 subject: Professional Activities
 listing-order: 2
-icon: "/assets/img/briefcase.svg"
+icon: "assets/img/briefcase.svg"
 contents:
   - title: Artifact Evaluation Committee (AEC) Members
     data:
