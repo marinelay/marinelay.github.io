@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     var contents = document.querySelectorAll('.subject, .item');
 
-    window.addEventListener('scroll', function(){
+    setInterval(function(){
         var scrollPos = document.documentElement.scrollTop;
         var wh = window.innerHeight;
 
