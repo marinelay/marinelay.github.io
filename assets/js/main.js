@@ -53,5 +53,5 @@ document.addEventListener('DOMContentLoaded', function(){
             let tocLink = document.getElementById("toc-id-" + currHead.textContent);
             tocLink.classList.add('active');
         }
-    })
+    }, 200);
 });
