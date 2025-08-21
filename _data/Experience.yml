@@ -5,3 +5,6 @@ contents:
   - title: Artifact Evaluation Committee (AEC) Members
     data:
       - "[SAS 2025](https://2025.splashcon.org/track/sas-2025-sas-artifact)"
+  - title: Patents
+    data:
+      - "[Device and method for program repair for type errors in dynamically typed language](https://patents.google.com/patent/US20240320084A1/en)"
