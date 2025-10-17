@@ -2,6 +2,13 @@ subject: Publications
 listing-order: 3
 icon: "assets/img/flask.svg"
 contents:
+  - title: 2026
+    paper:
+      - info:
+      - ICSE'26
+      - "IEEE/ACM International Conference on Software Engineering"
+      - Wonseok Oh, Hajoo Oh
+      - ""
   - title: 2024
     paper:
       - info:
