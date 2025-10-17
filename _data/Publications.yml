@@ -8,7 +8,7 @@ contents:
         - ICSE'26
         - "TypeCare: Boosting Python Type Inference Models via Context-Aware Re-Ranking and Augmentation"
         - Wonseok Oh, Hajoo Oh
-        - ""
+        - "https://prl.korea.ac.kr/papers/icse26typecare.pdf"
   - title: 2024
     paper:
       - info:
