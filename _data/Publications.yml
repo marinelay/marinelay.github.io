@@ -5,6 +5,14 @@ contents:
   - title: 2026
     paper:
       - info:
+        - "PySTAAR: An End-to-End, Extensible Framework for Automated Python Type Error Repair"
+        - <u>Wonseok Oh</u>, Hyobin Park, Miryeong Kang, Seungbin Choi, Yunja Choi, Hajoo Oh
+        - ICSE 2026 Demo
+        - "https://conf.researchr.org/track/icse-2026/icse-2026-demonstrations"
+        - IEEE/ACM International Conference on Software Engineering (Demonstrations Track)
+        - "https://prl.korea.ac.kr/papers/icse26-pystaar.pdf"
+    paper:
+      - info:
         - "TypeCare: Boosting Python Type Inference Models via Context-Aware Re-Ranking and Augmentation"
         - <u>Wonseok Oh</u>, Hajoo Oh
         - ICSE 2026
