@@ -10,6 +10,14 @@
   />
 </a>
 
+# Make CV
+
+```
+cd _cv
+xelatex cv.tex
+```
+
+
 # 🎓 - Jekyll Professional Resume
 
 A simple and modern resume template, best fit for either **Academic CV (Curriculum Vitae)** or **Engineer Portfolio**.

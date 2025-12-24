@@ -1,0 +1,49 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.18)  24 DEC 2025 10:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**_cv/cv.tex
+(./_cv/cv.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count192
+\c@section=\count193
+\c@subsection=\count194
+\c@subsubsection=\count195
+\c@paragraph=\count196
+\c@subparagraph=\count197
+\c@figure=\count198
+\c@table=\count199
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+
+! LaTeX Error: File `structure.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.26 \input{structure.tex}
+                           % Include the file specifying document layout^^M
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 236 strings out of 473832
+ 2875 string characters out of 5729481
+ 386380 words of memory out of 5000000
+ 23392 multiletter control sequences out of 15000+600000
+ 558845 words of font info for 37 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 35i,0n,38p,125b,40s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.
