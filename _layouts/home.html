@@ -130,24 +130,54 @@
                       {% if key == "paper" %}
                         <ul>
                           {% for paper in value %}
-                            {% assign info = paper.info %}
+                            {% if paper.info %}
+                              {% assign title = paper.info[0] %}
+                              {% assign authors = paper.info[1] %}
+                              {% assign venue = paper.info[2] %}
+                              {% assign venue_link = paper.info[3] %}
+                              {% assign conference = paper.info[4] %}
+                              {% assign paper_link = paper.info[5] %}
+                              {% assign award = paper.info.award %}
+                            {% else %}
+                              {% assign title = paper.name %}
+                              {% assign authors = paper.authors %}
+                              {% assign venue = paper.venue %}
+                              {% assign venue_link = paper.link %}
+                              {% assign conference = paper.conference %}
+                              {% assign paper_link = paper.paper_link %}
+                              {% assign award = paper.award %}
+                            {% endif %}
                             <li class="subitem" style="margin-bottom: 2.0em;">
                               <div style="font-size: 1.1em;">
-                                <strong style="line-height: 1.3;"> {{ info[0] }} </strong>
+                                <strong style="line-height: 1.3;"> {{ title }} </strong>
                               </div>
                               
                               <div style="font-size: 1.05em; margin-top: 0.5em;">
-                                {{ info[1] }}
+                                {{ authors }}
                                 
                               </div>
-                              <div style="margin-top: 0.7em;">
-                                <a style="font-weight:600; font-size:1.1em;" href="{{ info[3]}}">{{ info[2] }}</a> <span>{{ info[4] }}</span>
+                              <div class="publication-venue-row">
+                                {% if venue_link and venue_link != "" %}
+                                  <a class="publication-venue-link" href="{{ venue_link }}">{{ venue }}</a>
+                                {% else %}
+                                  <span class="publication-venue-link publication-venue-text">{{ venue }}</span>
+                                {% endif %}
+                                <span class="publication-conference">{{ conference }}</span>
                               </div>
+                              <!-- Check for awards -->
+                              {% if award %}
                               <div style="margin-top: 0.7em;">
-                                {% if info.size > 5 %}
-                                  <a style="font-size:0.9em" href="{{ info[5] }}">[paper]</a>
+                                <!-- Medal Emoji --> 
+                                <span style="font-size: 1.2em; color: #FFD700;">🏅</span>
+                                <span style="font-size: 1.05em; font-weight: 600;">{{ award }}</span>
+                              </div>
+                              {% endif %}
+                              <div style="margin-top: 0.7em;">
+                                {% if paper_link and paper_link != "" %}
+                                  <a style="font-size:0.9em" href="{{ paper_link }}">[paper]</a>
                                 {% endif %}
                               </div>
+                              
                             </li>
                           {% endfor %}
                         </ul>

@@ -4,42 +4,38 @@ icon: "assets/img/flask.svg"
 contents:
   - title: 2026
     paper:
-      - info:
-          - "Pig: Leveraging Large Language Models for Python Library Migrations"
-          - Miryeong Kang, <u>Wonseok Oh</u>, Hajoo Oh
-          - FSE 2026
-          - "https://conf.researchr.org/home/fse-2026"
-          - ACM International Conference on the Foundations of Software Engineering
-          - ""
-      - info:
-        - "PySTAAR: An End-to-End, Extensible Framework for Automated Python Type Error Repair"
-        - <u>Wonseok Oh</u>, Hyobin Park, Miryeong Kang, Seungbin Choi, Yunja Choi, Hajoo Oh
-        - ICSE 2026 Demo
-        - "https://conf.researchr.org/track/icse-2026/icse-2026-demonstrations"
-        - IEEE/ACM International Conference on Software Engineering (Demonstrations Track)
-        - ""
-      - info:
-        - "TypeCare: Boosting Python Type Inference Models via Context-Aware Re-Ranking and Augmentation"
-        - <u>Wonseok Oh</u>, Hajoo Oh
-        - ICSE 2026
-        - "https://conf.researchr.org/home/icse-2026"
-        - IEEE/ACM International Conference on Software Engineering
-        - "https://prl.korea.ac.kr/papers/icse26typecare.pdf"
+      - name: "Pig: Leveraging Large Language Models for Python Library Migrations"
+        authors: "Miryeong Kang, <u>Wonseok Oh</u>, Hajoo Oh"
+        venue: "FSE 2026"
+        link: "https://conf.researchr.org/home/fse-2026"
+        conference: "ACM International Conference on the Foundations of Software Engineering"
+        paper_link: ""
+      - name: "PySTAAR: An End-to-End, Extensible Framework for Automated Python Type Error Repair"
+        authors: "<u>Wonseok Oh</u>, Hyobin Park, Miryeong Kang, Seungbin Choi, Yunja Choi, Hajoo Oh"
+        venue: "ICSE 2026 Demo"
+        link: "https://conf.researchr.org/track/icse-2026/icse-2026-demonstrations"
+        conference: "IEEE/ACM International Conference on Software Engineering (Demonstrations Track)"
+        paper_link: "https://prl.korea.ac.kr/papers/icse26-pystaar.pdf"
+      - name: "TypeCare: Boosting Python Type Inference Models via Context-Aware Re-Ranking and Augmentation"
+        authors: "<u>Wonseok Oh</u>, Hajoo Oh"
+        venue: "ICSE 2026"
+        link: "https://conf.researchr.org/home/icse-2026"
+        conference: "IEEE/ACM International Conference on Software Engineering"
+        paper_link: "https://prl.korea.ac.kr/papers/icse26typecare.pdf"
+        award: "ACM SIGSOFT Distinguished Artifact Award"
   - title: 2024
     paper:
-      - info:
-        - "Towards Effective Static Type-Error Detection for Python"
-        - <u>Wonseok Oh</u>, Hakjoo Oh
-        - ASE 2024
-        - "https://conf.researchr.org/home/ase-2024"
-        - 39th IEEE/ACM International Conference on Automated Software Engineering
-        - "https://dl.acm.org/doi/10.1145/3691620.3695545"
+      - name: "Towards Effective Static Type-Error Detection for Python"
+        authors: "<u>Wonseok Oh</u>, Hakjoo Oh"
+        venue: "ASE 2024"
+        link: "https://conf.researchr.org/home/ase-2024"
+        conference: "39th IEEE/ACM International Conference on Automated Software Engineering"
+        paper_link: "https://dl.acm.org/doi/10.1145/3691620.3695545"
   - title: 2022
     paper:
-      - info:
-        - "PyTER: Effective Program Repair for Python Type Errors"
-        - <u>Wonseok Oh</u>, Hakjoo Oh
-        - FSE 2022
-        - "https://2022.esec-fse.org"
-        - ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
-        - "https://dl.acm.org/doi/10.1145/3540250.3549130"
+      - name: "PyTER: Effective Program Repair for Python Type Errors"
+        authors: "<u>Wonseok Oh</u>, Hakjoo Oh"
+        venue: "FSE 2022"
+        link: "https://2022.esec-fse.org"
+        conference: "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+        paper_link: "https://dl.acm.org/doi/10.1145/3540250.3549130"
