@@ -1,10 +1,24 @@
 subject: Talks
-listing-order: 4
+listing-order: 5
 icon: "assets/img/clipboard-list.svg"
 contents:
-  - title: 2024
-    talk: "31 Oct. [ASE 2024](https://conf.researchr.org/home/ase-2024)"
-  - title: 2023
-    talk: "09 Feb. [KCSE 2023 Invite Talk](https://sigsoft.or.kr/kcse2023/)"
-  - title: 2022
-    talk: "16 Nov. [FSE 2022](https://2022.esec-fse.org)"
+  - talk_title: "TypeCare: Boosting Python Type Inference Models via Context-Aware Re-Ranking and Augmentation"
+    date: "2026.04.17"
+    venue: "ICSE 2026"
+    venue_link: "https://conf.researchr.org/home/icse-2026"
+    pdf: "assets/files/talks/icse2026.pdf"
+  - talk_title: "Towards Effective Static Type-Error Detection for Python"
+    date: "2024.10.31"
+    venue: "ASE 2024"
+    venue_link: "https://conf.researchr.org/home/ase-2024"
+    pdf: "assets/files/talks/ase2024.pdf"
+  - talk_title: "PyTER: Effective Program Repair for Python Type Errors"
+    date: "2023.02.09"
+    venue: "KCSE 2023 Invite Talk"
+    venue_link: "https://sigsoft.or.kr/kcse2023/"
+    pdf: "assets/files/talks/kcse2023.pdf"
+  - talk_title: "PyTER: Effective Program Repair for Python Type Errors"
+    date: "2022.11.16"
+    venue: "FSE 2022"
+    venue_link: "https://2022.esec-fse.org"
+    pdf: "assets/files/talks/fse2022.pdf"

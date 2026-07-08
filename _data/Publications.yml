@@ -5,11 +5,14 @@ contents:
   - title: 2026
     paper:
       - name: "Pig: Leveraging Large Language Models for Python Library Migrations"
-        authors: "Miryeong Kang, <u>Wonseok Oh</u>, Hajoo Oh"
+        authors: "Miryeong Kang, <u>Wonseok Oh</u>, Gabin An, Hajoo Oh"
         venue: "FSE 2026"
         link: "https://conf.researchr.org/home/fse-2026"
         conference: "ACM International Conference on the Foundations of Software Engineering"
-        paper_link: ""
+        paper_link: "https://prl.korea.ac.kr/papers/fse26-pig.pdf"
+        awards:
+          - "ACM SIGSOFT Distinguished Paper Award"
+          - "ACM SIGSOFT Distinguished Artifact Award"
       - name: "PySTAAR: An End-to-End, Extensible Framework for Automated Python Type Error Repair"
         authors: "<u>Wonseok Oh</u>, Hyobin Park, Miryeong Kang, Seungbin Choi, Yunja Choi, Hajoo Oh"
         venue: "ICSE 2026 Demo"
