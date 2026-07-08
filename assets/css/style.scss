@@ -118,12 +118,9 @@ a:hover {
 }
 
 .home-section {
-  background: var(--surface);
-  border: 1px solid var(--border-color);
-  border-radius: 28px;
-  box-shadow: var(--shadow);
-  padding: 96px 0;
-  margin-bottom: 22px;
+  padding: 84px 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(16, 32, 51, 0.08);
   animation: intro 0.35s both;
 }
 
@@ -206,7 +203,9 @@ a:hover {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: var(--accent-soft);
+  background: rgba(255, 255, 255, 0.86);
+  border: 1px solid rgba(41, 98, 255, 0.24);
+  box-shadow: 0 8px 18px rgba(12, 18, 28, 0.06);
   flex: 0 0 auto;
 }
 
@@ -275,9 +274,9 @@ a:hover {
 
 .content-card {
   padding: 22px 24px;
-  border-radius: 22px;
+  border-radius: 16px;
   border: 1px solid rgba(16, 32, 51, 0.08);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.72);
 }
 
 .talk-entry {
@@ -435,8 +434,13 @@ a:hover {
   line-height: 1.7;
 }
 
-.publication-venue-row {
+.publication-meta {
   margin-top: 0.7rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.publication-venue-row {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem 0.55rem;
@@ -450,6 +454,7 @@ a:hover {
 
 .publication-conference {
   color: var(--muted-text);
+  line-height: 1.55;
 }
 
 .paper-award {
@@ -516,12 +521,6 @@ a:hover {
   }
 }
 
-@media (min-width: 768px) {
-  .home-section:nth-of-type(even) {
-    background: #f9fbfe;
-  }
-}
-
 @media (max-width: 767px) {
   .page-shell {
     width: min(100%, calc(100% - 18px));
@@ -554,8 +553,7 @@ a:hover {
   }
 
   .home-section {
-    padding: 62px 0;
-    border-radius: 22px;
+    padding: 44px 0;
   }
 
   .first-section {
@@ -587,7 +585,7 @@ a:hover {
 
   .content-card {
     padding: 18px 16px;
-    border-radius: 18px;
+    border-radius: 14px;
   }
 
   .content-header {

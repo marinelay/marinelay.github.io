@@ -147,13 +147,15 @@
                               <li class="paper-item">
                                 <div class="paper-title"><strong>{{ title }}</strong></div>
                                 <div class="paper-authors">{{ authors }}</div>
-                                <div class="publication-venue-row">
-                                  {% if venue_link and venue_link != "" %}
-                                    <a class="publication-venue-link" href="{{ venue_link }}" target="_blank" rel="noreferrer">{{ venue }}</a>
-                                  {% else %}
-                                    <span class="publication-venue-link publication-venue-text">{{ venue }}</span>
-                                  {% endif %}
-                                  <span class="publication-conference">{{ conference }}</span>
+                                <div class="publication-meta">
+                                  <div class="publication-venue-row">
+                                    {% if venue_link and venue_link != "" %}
+                                      <a class="publication-venue-link" href="{{ venue_link }}" target="_blank" rel="noreferrer">{{ venue }}</a>
+                                    {% else %}
+                                      <span class="publication-venue-link publication-venue-text">{{ venue }}</span>
+                                    {% endif %}
+                                  </div>
+                                  <div class="publication-conference">{{ conference }}</div>
                                 </div>
                                 {% if awards %}
                                   <div class="paper-awards">

@@ -4,7 +4,7 @@ icon: "assets/img/graduation-cap.svg"
 contents:
   - title: Korea University, Ph.D. Student in Computer Science
     description:
-      - "**Research Interests**: Prgramming Language, Software Engineering"
+      - "**Research Interests**: Programming Languages, Software Engineering"
       - Developing advanced program analysis techniques to detect bugs and guarantee software reliability
     date: Mar. 2024 - Ongoing
   - title: Korea University, M.S. in Computer Science
