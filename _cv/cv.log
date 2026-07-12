@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.16)  13 JUL 2026 07:26
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.2.16)  13 JUL 2026 07:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,6 +293,29 @@ uage=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
+Package fontspec Info: Could not resolve font "Segoe UI Emoji/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Segoe UI Emoji/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Segoe UI Emoji/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'SegoeUIEmoji(0)' created for font 'Segoe
+(fontspec)             UI Emoji' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Segoe UI
+(fontspec)             Emoji/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
 (c:/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
 
@@ -498,11 +521,11 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 5CC8F41C7917644A2AEAA1CF434433E5;541.
  ) 
 Here is how much of TeX's memory you used:
- 11064 strings out of 476182
- 226483 string characters out of 5813139
- 593891 words of memory out of 5000000
- 31689 multiletter control sequences out of 15000+600000
- 472745 words of font info for 47 fonts, out of 8000000 for 9000
+ 11085 strings out of 476182
+ 226989 string characters out of 5813139
+ 591231 words of memory out of 5000000
+ 31700 multiletter control sequences out of 15000+600000
+ 472785 words of font info for 52 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  78i,11n,91p,321b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
 

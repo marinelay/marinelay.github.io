@@ -472,16 +472,30 @@ a:hover {
   gap: 0.35rem;
 }
 
+.paper-award-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.75rem;
+  font-weight: 700;
+}
+
+.paper-award-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .award-badge {
   display: inline-flex;
   align-items: center;
-  padding: 4px 10px;
-  border-radius: 999px;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
   background: rgba(245, 158, 11, 0.12);
   color: #9a6700;
-  font-size: 0.76rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .paper-links {
