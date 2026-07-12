@@ -118,14 +118,14 @@ a:hover {
 }
 
 .home-section {
-  padding: 84px 0;
+  padding: 60px 0 68px;
   margin-bottom: 0;
   border-bottom: 1px solid rgba(16, 32, 51, 0.08);
   animation: intro 0.35s both;
 }
 
 .first-section {
-  padding-top: 72px;
+  padding-top: 56px;
 }
 
 .section-shell {
@@ -269,7 +269,14 @@ a:hover {
 }
 
 .talk-list {
-  gap: 6px;
+  gap: 0;
+}
+
+.talk-list-card {
+  padding: 6px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(16, 32, 51, 0.08);
+  background: rgba(255, 255, 255, 0.72);
 }
 
 .content-card {
@@ -280,11 +287,15 @@ a:hover {
 }
 
 .talk-entry {
-  padding: 12px 0 14px;
+  padding: 16px 0;
   border: 0;
   border-bottom: 1px solid rgba(16, 32, 51, 0.08);
   background: transparent;
   border-radius: 0;
+}
+
+.talk-entry:last-child {
+  border-bottom: 0;
 }
 
 .talk-meta {
@@ -301,24 +312,28 @@ a:hover {
 .talk-info {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
   gap: 0.35rem 0.55rem;
   color: var(--muted-text);
-  line-height: 1.55;
-}
-
-.talk-at {
-  font-weight: 700;
+  line-height: 1.3;
 }
 
 .talk-venue {
+  display: inline-flex;
+  align-items: center;
   color: var(--accent-strong);
+  font-size: 0.95rem;
   font-weight: 700;
+  line-height: 1.3;
 }
 
 .talk-venue-text {
+  display: inline-flex;
+  align-items: center;
   color: var(--muted-text);
+  font-size: 0.95rem;
   font-weight: 700;
+  line-height: 1.3;
 }
 
 .talk-actions {
@@ -351,16 +366,29 @@ a:hover {
   font-weight: 700;
 }
 
+.publication-card .content-header p {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--font-dark);
+}
+
 .content-date {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   gap: 8px;
   font-size: 0.95rem;
+  line-height: 1.3;
   color: var(--muted-text);
   font-weight: 600;
 }
 
+.date-text {
+  line-height: 1.3;
+}
+
 .content-date img {
+  display: block;
+  align-self: center;
   width: 18px;
   height: 18px;
 }
@@ -389,15 +417,23 @@ a:hover {
 
 .plain-list,
 .paper-list {
-  margin-top: 14px;
+  margin: 14px 0 0;
 }
 
 .plain-list > li {
   position: relative;
   padding-left: 18px;
-  margin-top: 10px;
+  margin-top: 8px;
   color: var(--muted-text);
   line-height: 1.7;
+}
+
+.plain-list > li:first-child {
+  margin-top: 0;
+}
+
+.plain-list > li p {
+  margin: 0;
 }
 
 .plain-list > li::before {
@@ -405,6 +441,7 @@ a:hover {
   position: absolute;
   left: 0;
   top: 0.85em;
+  transform: translateY(-50%);
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -417,27 +454,31 @@ a:hover {
   line-height: 1.75;
 }
 
+.plain-text p {
+  margin: 0;
+}
+
 .paper-item + .paper-item {
-  margin-top: 18px;
-  padding-top: 18px;
+  margin-top: 14px;
+  padding-top: 14px;
   border-top: 1px solid rgba(16, 32, 51, 0.08);
 }
 
 .paper-title {
   font-size: 1.05rem;
-  line-height: 1.4;
+  line-height: 1.32;
 }
 
 .paper-authors {
-  margin-top: 0.45rem;
+  margin-top: 0.15rem;
   color: var(--muted-text);
-  line-height: 1.7;
+  line-height: 1.48;
 }
 
 .publication-meta {
-  margin-top: 0.7rem;
+  margin-top: 0.38rem;
   display: grid;
-  gap: 0.4rem;
+  gap: 0.15rem;
 }
 
 .publication-venue-row {
@@ -454,7 +495,7 @@ a:hover {
 
 .publication-conference {
   color: var(--muted-text);
-  line-height: 1.55;
+  line-height: 1.4;
 }
 
 .paper-award {
@@ -567,11 +608,11 @@ a:hover {
   }
 
   .home-section {
-    padding: 44px 0;
+    padding: 36px 0 42px;
   }
 
   .first-section {
-    padding-top: 46px;
+    padding-top: 38px;
   }
 
   .about-grid {
@@ -599,6 +640,11 @@ a:hover {
 
   .content-card {
     padding: 18px 16px;
+    border-radius: 14px;
+  }
+
+  .talk-list-card {
+    padding: 4px 16px;
     border-radius: 14px;
   }
 

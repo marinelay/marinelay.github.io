@@ -82,20 +82,19 @@
               </div>
             </div>
 
-            <div class="section-body{% if subject.subject == "Talks" %} section-body-compact talk-list{% endif %}">
+            <div class="section-body{% if subject.subject == "Talks" %} section-body-compact talk-list talk-list-card{% endif %}">
               {% for member in subject.contents %}
-                <article class="content-card{% if subject.subject == "Talks" %} talk-entry{% endif %}">
+                <article class="content-card{% if subject.subject == "Talks" %} talk-entry{% endif %}{% if subject.subject == "Publications" %} publication-card{% endif %}">
                   {% if subject.subject == "Talks" %}
                     <div class="talk-meta">
                       <div class="talk-title">{{ member.talk_title }}</div>
                       <div class="talk-info">
                         <span class="content-date">
                           <img src="{{ 'assets/img/calendar.webp' | prepend: site.baseurl }}" alt="date">
-                          {{ member.date }}
+                          <span class="date-text">{{ member.date }}</span>
                         </span>
                         {% if member.venue_link and member.venue_link != "" %}
-                          <span class="talk-at">@</span>
-                          <a class="talk-venue" href="{{ member.venue_link }}" target="_blank" rel="noreferrer">{{ member.venue }}</a>
+                          <a class="talk-venue" href="{{ member.venue_link }}" target="_blank" rel="noreferrer">@ {{ member.venue }}</a>
                         {% else %}
                           <span class="talk-venue-text">{{ member.venue }}</span>
                         {% endif %}
