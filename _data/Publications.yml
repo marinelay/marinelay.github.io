@@ -10,6 +10,8 @@ contents:
         link: "https://conf.researchr.org/home/fse-2026"
         conference: "ACM International Conference on the Foundations of Software Engineering"
         paper_link: "https://prl.korea.ac.kr/papers/fse26-pig.pdf"
+        doi: "10.1145/3797072"
+        repo_link: "https://github.com/kupl/pig_artifact"
         awards:
           - "ACM SIGSOFT Distinguished Paper Award"
           - "ACM SIGSOFT Distinguished Artifact Award"
@@ -19,12 +21,16 @@ contents:
         link: "https://conf.researchr.org/track/icse-2026/icse-2026-demonstrations"
         conference: "IEEE/ACM International Conference on Software Engineering (Demonstrations Track)"
         paper_link: "https://prl.korea.ac.kr/papers/icse26-pystaar.pdf"
+        doi: "10.1145/3774748.3787613"
+        repo_link: "https://github.com/kupl/Pystaar"
       - name: "TypeCare: Boosting Python Type Inference Models via Context-Aware Re-Ranking and Augmentation"
         authors: "<u>Wonseok Oh</u>, Hakjoo Oh"
         venue: "ICSE 2026"
         link: "https://conf.researchr.org/home/icse-2026"
         conference: "IEEE/ACM International Conference on Software Engineering"
         paper_link: "https://prl.korea.ac.kr/papers/icse26typecare.pdf"
+        doi: "10.1145/3744916.3773213"
+        repo_link: "https://github.com/kupl/TypeCare"
         award: "ACM SIGSOFT Distinguished Artifact Award"
   - title: 2024
     paper:
@@ -33,7 +39,9 @@ contents:
         venue: "ASE 2024"
         link: "https://conf.researchr.org/home/ase-2024"
         conference: "39th IEEE/ACM International Conference on Automated Software Engineering"
-        paper_link: "https://dl.acm.org/doi/10.1145/3691620.3695545"
+        paper_link: "https://prl.korea.ac.kr/papers/ase24_wonseok.pdf"
+        doi: "10.1145/3691620.3695545"
+        repo_link: "https://github.com/kupl/PyinderArtifact"
   - title: 2022
     paper:
       - name: "PyTER: Effective Program Repair for Python Type Errors"
@@ -41,4 +49,6 @@ contents:
         venue: "FSE 2022"
         link: "https://2022.esec-fse.org"
         conference: "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
-        paper_link: "https://dl.acm.org/doi/10.1145/3540250.3549130"
+        paper_link: "https://prl.korea.ac.kr/papers/fse22.pdf"
+        doi: "10.1145/3540250.3549130"
+        repo_link: "https://github.com/kupl/PyTER"

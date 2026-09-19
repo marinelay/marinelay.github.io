@@ -170,9 +170,21 @@
                                     <span>{{ award }}</span>
                                   </div>
                                 {% endif %}
-                                {% if paper_link and paper_link != "" %}
+                                {% capture paper_links %}
+                                  {% if paper_link and paper_link != "" %}
+                                    <a href="{{ paper_link | escape }}" target="_blank" rel="noreferrer">Paper</a>
+                                  {% endif %}
+                                  {% if paper.doi and paper.doi != "" %}
+                                    <a href="https://doi.org/{{ paper.doi | escape }}" target="_blank" rel="noreferrer">DOI</a>
+                                  {% endif %}
+                                  {% if paper.repo_link and paper.repo_link != "" %}
+                                    <a href="{{ paper.repo_link | escape }}" target="_blank" rel="noreferrer">GitHub</a>
+                                  {% endif %}
+                                {% endcapture %}
+                                {% assign paper_links = paper_links | strip %}
+                                {% if paper_links != "" %}
                                   <div class="paper-links">
-                                    <a href="{{ paper_link }}" target="_blank" rel="noreferrer">Paper</a>
+                                    {{ paper_links }}
                                   </div>
                                 {% endif %}
                               </li>
